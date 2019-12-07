@@ -1,15 +1,14 @@
+
 def position_taken?(board, index)
-  # basic solution:
 
-  # taken = nil
-  # if (board[index] ==  " " || board[index] == "" || board[index] == nil)
-  #   taken = false
-  # else
-  #   taken = true
-  # end
-  # taken
 
-  # advanced solution w/ ternary operator
+   taken = nil
+   if (board[index] ==  " " || board[index] == "" || board[index] == nil)
+     taken = false
+   else
+     taken = true
+   end
+
   (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
     false : true
 
